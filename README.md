@@ -8,3 +8,7 @@
 4. commited to git
 5. pushed to remote repo created on git hub using the ff command "git remote add origin <url>
 6. created a new branch to add README...you :) :)
+
+## Updated Readme
+1. added styling to the html
+2. I think I'll take a break
