@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.col-1 { width: 8.33% }
+.col-2 { width: 16.66% }
+.col-3 { width: 24.99% }
+.col-4 { width: 33.32% }
+.col-5 { width: 41.65% }
+.col-6 { width: 49.98% }
+.col-7 { width: 58.31% }
+.col-8 { width: 66.64% }
+.col-9 { width: 74.97% }
+.col-10 { width: 83.33% }
+.col-11 { width: 91.64% }
+.col-12 { width: 100% }
+
+.row > div {
+    float: left;
+    padding: 10px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header {
+    height: 200px;
+    background: rosybrown;
+    text-align: center;
+    padding-top: 70px; 
+}
+
+ul {
+    list-style-type: none;
+    background: skyblue;
+    padding: 10px;
+}
+
+ul li {
+    padding: 10px;
+    background: rgb(98, 174, 204);
+    margin-bottom: 10px;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+ul li:hover {
+    /* color: rosybrown; */
+    background: rgb(90, 158, 185);
+    cursor: pointer;
+}
+
+.content {
+    background: tan;
+    padding: 10px;
+}
+
+.content h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.content p {
+    text-align: justify;
+    padding: 10px;
+}
+
+.buttonrow button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+.button1 { background: red; }
+.button2 { background: green; }
+.button3 { background: yellow; }
+.button4 { background: skyblue; }
+
+.button1:hover { background: rgb(228, 105, 105); }
+.button2:hover { background: rgb(96, 235, 96); }
+.button3:hover { background: rgb(241, 241, 120); }
+.button4:hover { background: rgb(169, 219, 238); }
+
+footer {
+    height: 200px;
+    background: #aaa;
+    text-align: center;
+    padding-top: 80px;
+}
